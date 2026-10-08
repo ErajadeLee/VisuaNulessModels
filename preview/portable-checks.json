@@ -1,0 +1,111 @@
+{
+  "status": "ok",
+  "checks": [
+    "local runtime and complete HTTP/attachment pipeline ignore all external Python and data sources",
+    "the application exposes one renamed executable and no command launchers",
+    "native launch checks use an isolated copy and preserve the original application's state",
+    "relocated copy reads every application file only from its own folder",
+    "occupied port falls back without stopping any other program",
+    "duplicate startup reuses the authenticated instance in the same folder",
+    "shutdown requires this folder's instance token",
+    "authenticated internal shutdown cleans up the service without a separate stop executable",
+    "the single renamed executable works from a Chinese path with spaces and poisoned Python/PATH/proxy settings"
+  ],
+  "details": {
+    "original_isolation": {
+      "status": "ok",
+      "root": "D:\\0nbb_Visualization",
+      "module_paths": [
+        "D:\\0nbb_Visualization\\runtime\\python\\python312.zip",
+        "D:\\0nbb_Visualization\\runtime\\python\\DLLs",
+        "D:\\0nbb_Visualization\\runtime\\python",
+        "D:\\0nbb_Visualization"
+      ],
+      "file_read_count": 27,
+      "opened_files": [
+        "data\\catalog.json",
+        "data\\topologies.json",
+        "matching\\__init__.py",
+        "matching\\__pycache__\\__init__.cpython-312.pyc",
+        "matching\\__pycache__\\attachments.cpython-312.pyc",
+        "matching\\__pycache__\\catalog.cpython-312.pyc",
+        "matching\\__pycache__\\engine.cpython-312.pyc",
+        "matching\\__pycache__\\render.cpython-312.pyc",
+        "matching\\__pycache__\\server.cpython-312.pyc",
+        "matching\\__pycache__\\topology.cpython-312.pyc",
+        "matching\\__pycache__\\wolfram.cpython-312.pyc",
+        "matching\\attachments.py",
+        "matching\\catalog.py",
+        "matching\\engine.py",
+        "matching\\render.py",
+        "matching\\server.py",
+        "matching\\topology.py",
+        "matching\\wolfram.py",
+        "preview\\app-icon.ico",
+        "preview\\app-icon.svg",
+        "preview\\app.css",
+        "preview\\app.js",
+        "preview\\attachment.html",
+        "preview\\attachment.js",
+        "preview\\i18n.js",
+        "preview\\index.html",
+        "runtime\\python\\python312.zip"
+      ],
+      "topology_count": 7,
+      "template_count": 28,
+      "validated_model_diagram_count": 5280
+    },
+    "original_window": {
+      "existing_instance_preserved": false,
+      "native_checks": "relocated_copy"
+    },
+    "relocated_isolation": {
+      "status": "ok",
+      "root": "D:\\0nbb_Visualization\\_portable-test\\复制后的独立程序 with spaces",
+      "module_paths": [
+        "D:\\0nbb_Visualization\\_portable-test\\复制后的独立程序 with spaces\\runtime\\python\\python312.zip",
+        "D:\\0nbb_Visualization\\_portable-test\\复制后的独立程序 with spaces\\runtime\\python\\DLLs",
+        "D:\\0nbb_Visualization\\_portable-test\\复制后的独立程序 with spaces\\runtime\\python",
+        "D:\\0nbb_Visualization\\_portable-test\\复制后的独立程序 with spaces"
+      ],
+      "file_read_count": 27,
+      "opened_files": [
+        "data\\catalog.json",
+        "data\\topologies.json",
+        "matching\\__init__.py",
+        "matching\\__pycache__\\__init__.cpython-312.pyc",
+        "matching\\__pycache__\\attachments.cpython-312.pyc",
+        "matching\\__pycache__\\catalog.cpython-312.pyc",
+        "matching\\__pycache__\\engine.cpython-312.pyc",
+        "matching\\__pycache__\\render.cpython-312.pyc",
+        "matching\\__pycache__\\server.cpython-312.pyc",
+        "matching\\__pycache__\\topology.cpython-312.pyc",
+        "matching\\__pycache__\\wolfram.cpython-312.pyc",
+        "matching\\attachments.py",
+        "matching\\catalog.py",
+        "matching\\engine.py",
+        "matching\\render.py",
+        "matching\\server.py",
+        "matching\\topology.py",
+        "matching\\wolfram.py",
+        "preview\\app-icon.ico",
+        "preview\\app-icon.svg",
+        "preview\\app.css",
+        "preview\\app.js",
+        "preview\\attachment.html",
+        "preview\\attachment.js",
+        "preview\\i18n.js",
+        "preview\\index.html",
+        "runtime\\python\\python312.zip"
+      ],
+      "topology_count": 7,
+      "template_count": 28,
+      "validated_model_diagram_count": 5280
+    },
+    "relocated_window": {
+      "root": "D:\\0nbb_Visualization\\_portable-test\\复制后的独立程序 with spaces",
+      "window_title": "0νββ · 模型探索工作台",
+      "mode": "window"
+    }
+  }
+}

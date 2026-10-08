@@ -1,0 +1,51 @@
+{
+  "status": "ok",
+  "checks": [
+    "T4-5-9 I4 left click preserves blue highlight without the native SVG focus outline",
+    "every internal/external line in both diagrams, all three stages: no black outline, correct field/detail linkage",
+    "Tab focus remains visible through blue wire/arrow/label styling",
+    "single-diagram viewer uses the same corrected focus styling",
+    "exported SVG includes the fix; no browser script errors"
+  ],
+  "clickedLineCount": 75,
+  "samples": [
+    {
+      "diagram": "T4-5-9",
+      "stage": "topology",
+      "clickedLines": 13
+    },
+    {
+      "diagram": "T4-5-9",
+      "stage": "diagram",
+      "clickedLines": 13
+    },
+    {
+      "diagram": "T4-5-9",
+      "stage": "attachment",
+      "clickedLines": 13
+    },
+    {
+      "diagram": "T1-1-3",
+      "stage": "topology",
+      "clickedLines": 12
+    },
+    {
+      "diagram": "T1-1-3",
+      "stage": "diagram",
+      "clickedLines": 12
+    },
+    {
+      "diagram": "T1-1-3",
+      "stage": "attachment",
+      "clickedLines": 12
+    }
+  ],
+  "keyboard": {
+    "focused": true,
+    "focusVisible": true,
+    "outline": "none",
+    "stroke": "rgb(21, 101, 192)",
+    "width": "0.06px"
+  },
+  "page_errors": []
+}

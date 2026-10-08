@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "checks": [
+    "initial 61 white bubbles, empty results, SM edge markers and reduced motion",
+    "ascending dimension layout for all 61 fields",
+    "statistics filter and reset restores the complete field space",
+    "pending minimum missing fields and real red/green/hidden candidates",
+    "green extension changes model type; undo restores the minimal path",
+    "generation, published MF model card, seven original T diagrams",
+    "line-to-field and field-to-all-lines linkage with actual conjugate charge",
+    "topology, E/I and actual attachment stages",
+    "zoom, drag, fit and valid SVG export",
+    "diagram switch selects another topology and clears previous line properties",
+    "changing fields invalidates old models; nonminimal display uses no invented MF id",
+    "chip removal and clicking a selected bubble both support undo",
+    "exact diagram lookup loads the corresponding complete field set and model",
+    "unknown diagram is rejected while preserving the current workspace",
+    "reset clears selection, history, model details and restores 61 white bubbles",
+    "rapid selection and delayed responses retain only the latest round",
+    "phone and tablet layouts keep the complete flow without page overflow",
+    "gentle bubble motion can be paused without changing dimension groups"
+  ],
+  "page_errors": []
+}

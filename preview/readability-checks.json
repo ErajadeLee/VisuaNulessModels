@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "field_layouts": [
+    {
+      "width": 390,
+      "fields": 61,
+      "bubbleDiameter": 51.328125,
+      "quantumFont": "9.24px",
+      "minimumGap": 7.005126953125,
+      "clipped": [],
+      "pageOverflow": false
+    },
+    {
+      "width": 800,
+      "fields": 61,
+      "bubbleDiameter": 51.328125,
+      "quantumFont": "9.24px",
+      "minimumGap": 7.005126953125,
+      "clipped": [],
+      "pageOverflow": false
+    },
+    {
+      "width": 900,
+      "fields": 61,
+      "bubbleDiameter": 51.328125,
+      "quantumFont": "9.24px",
+      "minimumGap": 7.005126953125,
+      "clipped": [],
+      "pageOverflow": false
+    },
+    {
+      "width": 1440,
+      "fields": 61,
+      "bubbleDiameter": 62,
+      "quantumFont": "11px",
+      "minimumGap": 7,
+      "clipped": [],
+      "pageOverflow": false
+    }
+  ],
+  "selected_long_fraction_fits": true,
+  "diagrams_without_clipped_labels": [
+    "T1-1-1",
+    "T4-5-9"
+  ]
+}

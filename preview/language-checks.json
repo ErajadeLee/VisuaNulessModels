@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "checks": [
+    "language selector translates every static label, help dialog, title, tooltip and accessible name",
+    "English covers pending/ready matches, model cards, field sets and actual conjugate line properties",
+    "switching language preserves selection, diagram, exact SVG, zoom, locked line and repeated-field highlights",
+    "all three diagram stages remain English and clicking lines keeps the black-outline fix",
+    "nonminimal sets display English composition without inventing MF IDs",
+    "English errors and diagram lookup instructions",
+    "switching during an outstanding request and retranslating existing errors keeps English complete",
+    "language preference survives reload",
+    "auxiliary preview shares the saved language and live changes synchronize across tabs",
+    "English labels remain usable without page overflow on phone, tablet and desktop"
+  ],
+  "page_errors": []
+}

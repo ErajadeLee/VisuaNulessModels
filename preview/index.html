@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="/assets/app-icon.svg">
+<title data-i18n="0νββ · 模型探索工作台">0νββ · 模型探索工作台</title>
+<link rel="stylesheet" href="/assets/app.css">
+<script src="/assets/i18n.js" defer></script>
+<script src="/assets/app.js" defer></script>
+</head>
+<body data-motion="on">
+<aside class="navigation">
+<a class="brand" href="/" aria-label="0νββ 模型探索首页" data-i18n-aria-label="0νββ 模型探索首页"><span class="brand-mark">0νββ</span><span class="brand-copy">MODEL ATLAS<br><small><span data-i18n="模型探索工作台">模型探索工作台</span></small></span></a>
+<div class="nav-caption">WORKSPACE</div>
+<button class="nav-item active" id="nav-fields" aria-label="场探索" data-i18n-aria-label="场探索"><svg viewbox="0 0 24 24" aria-hidden="true"><circle cx="7" cy="8" r="3"/><circle cx="17" cy="7" r="2"/><circle cx="14" cy="17" r="4"/></svg><span><span data-i18n="场探索">场探索</span></span></button>
+<button class="nav-item" id="nav-diagrams" aria-label="图编号查询" data-i18n-aria-label="图编号查询"><svg viewbox="0 0 24 24" aria-hidden="true"><path d="M3 5l7 7-7 7M21 5l-7 7 7 7M10 12h4"/></svg><span><span data-i18n="图编号查询">图编号查询</span></span></button>
+<button class="nav-item" id="nav-help" aria-label="使用说明" data-i18n-aria-label="使用说明"><svg viewbox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7v1"/></svg><span><span data-i18n="使用说明">使用说明</span></span></button>
+<div class="nav-footer"><span class="live-dot"></span><span><span data-i18n="本地模型目录">本地模型目录</span><br><small>supplementary v3</small></span></div>
+</aside>
+<main class="application">
+<header class="workspace-bar"><div class="breadcrumb"><span data-i18n="工作台">工作台</span> <span>/</span> <span data-i18n="模型探索">模型探索</span></div><div class="workspace-tools"><label class="language-control"><span data-i18n="语言">语言</span><select id="language" data-language aria-label="选择界面语言" data-i18n-aria-label="选择界面语言"><option value="zh-CN" data-i18n="中文">中文</option><option value="en">English</option></select></label><div class="dataset-meta" id="dataset-meta"><span class="live-dot"></span><span data-i18n="正在连接数据">正在连接数据</span></div></div></header>
+<section class="hero">
+<div><div class="eyebrow">NEUTRINOLESS DOUBLE BETA DECAY</div><h1><span data-i18n="从场出发，探索模型">从场出发，探索模型</span><span class="title-dot">.</span></h1><p><span data-i18n="组合新场，寻找共同模型，并查看它们在费曼图中的具体赋值。">组合新场，寻找共同模型，并查看它们在费曼图中的具体赋值。</span></p></div>
+<div class="hero-actions"><button class="button secondary" id="lookup-open"><span>⌕</span> <span data-i18n="图编号查询">图编号查询</span></button><button class="button primary-soft" id="load-example"><span data-i18n="载入示例">载入示例</span> <span>{1, 52, 56}</span></button></div>
+</section>
+<section class="selection-bar" aria-label="当前选择" data-i18n-aria-label="当前选择">
+<div class="selection-label"><span data-i18n="已选场">已选场</span> <span id="selection-count">0</span></div>
+<div id="selected-chips" class="selected-chips"><span class="empty-selection"><span data-i18n="点击下面的场气泡开始">点击下面的场气泡开始</span></span></div>
+<div class="selection-actions"><button id="undo" class="text-button" disabled><span data-i18n="↶ 撤销">↶ 撤销</span></button><span class="divider"></span><button id="reset" class="text-button" disabled><span data-i18n="重置">重置</span></button></div>
+</section>
+<div id="app-error" class="app-error" role="alert" hidden></div>
+<section class="scene" id="field-section">
+<div class="field-card">
+<div class="card-heading"><div><span class="section-number">01</span><h2><span data-i18n="场空间">场空间</span></h2><span class="count-label" id="visible-count"><span data-i18n="61 个场">61 个场</span></span></div><div class="field-controls">
+<div class="segmented" aria-label="场类型筛选" data-i18n-aria-label="场类型筛选"><button data-filter="all" class="active" aria-pressed="true"><span data-i18n="全部">全部</span></button><button data-filter="F" aria-pressed="false"><span data-i18n="费米子">费米子</span></button><button data-filter="S" aria-pressed="false"><span data-i18n="标量">标量</span></button></div>
+<button id="motion-toggle" class="motion-toggle" aria-pressed="true" title="暂停或恢复气泡漂浮" data-i18n-title="暂停或恢复气泡漂浮"><span class="motion-icon">≈</span><span id="motion-label"><span data-i18n="漂浮">漂浮</span></span></button>
+</div></div>
+<div class="quantum-key"><span class="key-su3">SU(3)</span><span class="key-su2">SU(2)</span><span class="key-u1">U(1)<sub>Y</sub></span><span class="key-fs">F / S</span><span class="sm-key"><i></i><span data-i18n="SM 量子数匹配">SM 量子数匹配</span></span><span class="axis-caption"><span data-i18n="维数从左到右、从上到下递增">维数从左到右、从上到下递增</span></span></div>
+<div class="plot-scroll"><div id="field-plot" aria-label="按 SU(3) 和 SU(2) 维数排列的场气泡" data-i18n-aria-label="按 SU(3) 和 SU(2) 维数排列的场气泡"><div id="matrix-layer"></div><div id="bubble-layer"></div><div class="plot-loading" id="plot-loading"><span data-i18n="正在加载 61 个场…">正在加载 61 个场…</span></div></div></div>
+<div class="field-legend"><span><i class="legend-dot initial"></i><span data-i18n="初始场">初始场</span></span><span><i class="legend-dot minimal"></i><span data-i18n="可补全 minimal model">可补全 minimal model</span></span><span><i class="legend-dot model"></i><span data-i18n="可补全 model">可补全 model</span></span><span><i class="legend-dot selected"></i><span data-i18n="已选场">已选场</span></span><span class="hidden-count" id="hidden-count"></span></div>
+</div>
+<aside class="scene-sidebar">
+<section class="result-panel"><div class="aside-heading"><span><span data-i18n="本轮匹配">本轮匹配</span></span><span class="round-tag" id="round-tag"><span data-i18n="等待选择">等待选择</span></span></div><div id="result-root" class="result-root" aria-live="polite"><div class="result-placeholder"><div class="empty-orbit"><i></i><i></i><i></i></div><strong><span data-i18n="等待你的第一个场">等待你的第一个场</span></strong><p><span data-i18n="每次选择后，重新计算">每次选择后，重新计算</span><br><span data-i18n="整个场集合的匹配结果。">整个场集合的匹配结果。</span></p></div></div><div class="match-statistics"><div><span><span data-i18n="可补全模型组">可补全模型组</span></span><strong id="compatible-count">—</strong></div><div><span><span data-i18n="其中 minimal">其中 minimal</span></span><strong id="minimal-count">—</strong></div></div></section>
+<section class="inspector-card" id="field-inspector"><div class="aside-heading"><span><span data-i18n="场属性">场属性</span></span><span class="small-label" id="inspector-kind"></span></div><div id="inspector-body" class="inspector-body"><div class="inspector-empty"><span class="inspect-icon">⌖</span><p><span data-i18n="悬停或聚焦一个场">悬停或聚焦一个场</span><br><span data-i18n="查看完整量子数。">查看完整量子数。</span></p></div></div></section>
+<div class="interaction-note"><span>↔</span><p><span data-i18n="打开模型图后，场气泡与内部线会双向高亮。点击已选场可取消选择。">打开模型图后，场气泡与内部线会双向高亮。点击已选场可取消选择。</span></p></div>
+</aside>
+</section>
+<section id="model-workspace" class="model-workspace" hidden>
+<div class="model-section-heading"><div><span class="section-number">02</span><h2><span data-i18n="模型与费曼图">模型与费曼图</span></h2><span class="count-label" id="generated-count"></span></div><button id="back-to-fields" class="text-button"><span data-i18n="↑ 返回选场">↑ 返回选场</span></button></div>
+<div id="model-cards" class="model-cards"></div>
+<div id="diagram-browser" class="diagram-browser" hidden>
+<aside class="diagram-options"><div class="list-heading"><h3>Model-diagram</h3><span id="diagram-count"></span></div><div id="diagram-list" class="diagram-list"></div><p class="small-note"><span data-i18n="编号与 supplementary_v3 对应。">编号与 supplementary_v3 对应。</span></p></aside>
+<div class="diagram-view">
+<div class="diagram-toolbar"><div class="segmented stages" aria-label="图展示阶段" data-i18n-aria-label="图展示阶段"><button data-stage="topology" aria-pressed="false">① Topology</button><button data-stage="diagram" aria-pressed="false"><span data-i18n="② E / I 编号">② E / I 编号</span></button><button data-stage="attachment" class="active" aria-pressed="true"><span data-i18n="③ 场赋值">③ 场赋值</span></button></div><div class="zoom-controls"><button id="zoom-out" aria-label="缩小图形" data-i18n-aria-label="缩小图形">−</button><button id="zoom-fit" aria-label="复位图形" data-i18n-aria-label="复位图形"><span id="zoom-label">100%</span></button><button id="zoom-in" aria-label="放大图形" data-i18n-aria-label="放大图形">+</button></div></div>
+<div class="diagram-identity"><h3 id="diagram-title"></h3><span class="model-badge" id="model-badge"></span><button class="download-button" id="download-svg" disabled>↓ SVG</button></div>
+<div class="pipeline" id="pipeline"></div><div id="diagram-error" role="alert"></div>
+<div class="diagram-canvas" id="diagram-canvas"><div id="figure" aria-live="polite"></div></div>
+<div class="diagram-bottom"><div id="fields"></div><span><span data-i18n="悬停查看 · 空白处拖动 · 按钮缩放">悬停查看 · 空白处拖动 · 按钮缩放</span></span></div>
+</div>
+<aside class="line-inspector"><div class="related-heading"><span data-i18n="本图新场">本图新场</span></div><div id="diagram-fields" class="related-field-bubbles"></div><div class="list-heading"><h3><span data-i18n="线与场">线与场</span></h3><span><span data-i18n="双向联动">双向联动</span></span></div><div id="line-list"></div><div id="detail"><span data-i18n="点击一条线查看量子数。">点击一条线查看量子数。</span></div></aside>
+</div>
+</section>
+<footer class="page-footer"><span>0νββ Model Atlas</span><span><span data-i18n="61 个新场 · 710 个 minimal 场集合 · 5,280 个 model-diagram">61 个新场 · 710 个 minimal 场集合 · 5,280 个 model-diagram</span></span><a href="/attachment" target="_blank" rel="noopener"><span data-i18n="单图赋值预览 ↗">单图赋值预览 ↗</span></a></footer>
+</main>
+<dialog id="lookup-dialog" class="modal"><div class="modal-heading"><div><span class="eyebrow">DIAGRAM LOOKUP</span><h2><span data-i18n="查询 model-diagram">查询 model-diagram</span></h2></div><button class="close-button" id="lookup-close" aria-label="关闭图查询" data-i18n-aria-label="关闭图查询">×</button></div><p class="modal-description"><span data-i18n="查询具体图时，将载入它对应的完整场集合。">查询具体图时，将载入它对应的完整场集合。</span></p><form id="lookup-form"><input id="diagram-search" aria-label="搜索图编号" placeholder="例如 T1-1-1" autocomplete="off" data-i18n-aria-label="搜索图编号" data-i18n-placeholder="例如 T1-1-1"><button class="button primary" type="submit"><span data-i18n="打开图">打开图</span></button></form><p id="search-count" class="small-note"></p><div id="lookup-results" class="lookup-results"></div><p id="lookup-error" role="alert"></p></dialog>
+<dialog id="help-dialog" class="modal help-modal"><div class="modal-heading"><h2><span data-i18n="探索流程">探索流程</span></h2><button class="close-button" id="help-close" aria-label="关闭使用说明" data-i18n-aria-label="关闭使用说明">×</button></div><ol><li><strong><span data-i18n="选择场。">选择场。</span></strong><span data-i18n="每个气泡对应一个新场，维数位置固定。红色候选可补全 minimal 模型，绿色候选可补全 model，无共同模型的候选隐藏。">每个气泡对应一个新场，维数位置固定。红色候选可补全 minimal 模型，绿色候选可补全 model，无共同模型的候选隐藏。</span></li><li><strong><span data-i18n="补全组合。">补全组合。</span></strong><span data-i18n="待补全时会显示最少缺少的场数。取消、撤销和重置都会重新匹配整个选择。">待补全时会显示最少缺少的场数。取消、撤销和重置都会重新匹配整个选择。</span></li><li><strong><span data-i18n="生成模型。">生成模型。</span></strong><span data-i18n="完整匹配后点击结果气泡，选择模型卡片，再选择具体 T 编号。">完整匹配后点击结果气泡，选择模型卡片，再选择具体 T 编号。</span></li><li><strong><span data-i18n="查看赋值。">查看赋值。</span></strong><span data-i18n="切换拓扑、线编号和具体场；悬停内部线或场气泡，可高亮同一场的全部位置。图形支持缩放、拖动及 SVG 导出。">切换拓扑、线编号和具体场；悬停内部线或场气泡，可高亮同一场的全部位置。图形支持缩放、拖动及 SVG 导出。</span></li></ol><p class="small-note"><span data-i18n="SM 边缘标记只表示量子数匹配，编号场仍作为新场。未编制 MF 编号的场集合会显示场组成与原 T 编号。">SM 边缘标记只表示量子数匹配，编号场仍作为新场。未编制 MF 编号的场集合会显示场组成与原 T 编号。</span></p></dialog>
+</body>
+</html>

@@ -1,0 +1,468 @@
+{
+  "schema_version": 1,
+  "platform": "Windows x64",
+  "python_version": "3.12.14",
+  "python_entry": "runtime/python/pythonw.exe",
+  "python_stdlib_file_count": 594,
+  "browser_version": "153.0.8010.53",
+  "browser_entry": "runtime/browser/chrome.exe",
+  "browser_notices": "chrome://credits (available inside the bundled browser)",
+  "files": [
+    {
+      "path": "runtime/browser/153.0.8010.53/153.0.8010.53.manifest",
+      "size": 226,
+      "sha256": "caf433f7624c3cdafbf3853e52b69d318efcb13c2b0ab14f1522f5429fde9a35"
+    },
+    {
+      "path": "runtime/browser/153.0.8010.53/chrome.dll",
+      "size": 301598872,
+      "sha256": "7d02f993ca5c7289ed75c11462a81b1c76f985ede8eef6f5c4b4c49783eb1d31"
+    },
+    {
+      "path": "runtime/browser/153.0.8010.53/chrome.dll.sig",
+      "size": 1427,
+      "sha256": "8cf69b45f821656f17511e81c30b565f118f5a0c0cc74ce3325c6bb2bc88f054"
+    },
+    {
+      "path": "runtime/browser/153.0.8010.53/chrome.exe.sig",
+      "size": 1427,
+      "sha256": "bf51cd70c2db76592fd6ea15d50feea2efa1cf50527e71d89c6f3c96fbb0c834"
+    },
+    {
+      "path": "runtime/browser/153.0.8010.53/chrome_100_percent.pak",
+      "size": 1224380,
+      "sha256": "74329aed03ca968440331beaeccb2f760614cdf6865b61b6350d902dd33ffe8a"
+    },
+    {
+      "path": "runtime/browser/153.0.8010.53/chrome_200_percent.pak",
+      "size": 2230562,
+      "sha256": "bd254c62392cbf24c8a623fa3cc5a0a6fd2b25685ef2e8df9990af389c74ceed"
+    },
+    {
+      "path": "runtime/browser/153.0.8010.53/chrome_elf.dll",
+      "size": 2755224,
+      "sha256": "916798161de17a1dcf831da51fa7ac417f003f1687f106cb837d13fa3cc0a043"
+    },
+    {
+      "path": "runtime/browser/153.0.8010.53/chrome_pwa_launcher.exe",
+      "size": 3213464,
+      "sha256": "758336b29b7ad91b5f421860ffaede503e311bc96b4ae02dfff06160dc95a162"
+    },
+    {
+      "path": "runtime/browser/153.0.8010.53/chrome_wer.dll",
+      "size": 125592,
+      "sha256": "e002e9379ef6eb46ae13d6388e011b99c484ebf49098434385cf24729cc8fa70"
+    },
+    {
+      "path": "runtime/browser/153.0.8010.53/chromecompaneros.dll",
+      "size": 467096,
+      "sha256": "a02b153bc82cc1c5a43aa15a28b3ff1663b904a9ac5d8e020a62669e897035cc"
+    },
+    {
+      "path": "runtime/browser/153.0.8010.53/d3dcompiler_47.dll",
+      "size": 4753864,
+      "sha256": "f5c95e919b4ffa1ac71049cd45b9f986d2965e6888395ca2806337985334fa56"
+    },
+    {
+      "path": "runtime/browser/153.0.8010.53/dxcompiler.dll",
+      "size": 25843352,
+      "sha256": "47ee10f34599f39e5baef5c67a3e6a2d19ee6158e0372a98957480d51a5190b6"
+    },
+    {
+      "path": "runtime/browser/153.0.8010.53/dxil.dll",
+      "size": 1503728,
+      "sha256": "88d83e71c4f9f2a60deeaa685a6d034a182ca197b6ec53f86144335f663fd690"
+    },
+    {
+      "path": "runtime/browser/153.0.8010.53/elevated_tracing_service.exe",
+      "size": 4525720,
+      "sha256": "04051c3951d08e4318895a2e3fdad41bd8003fc055c058d15464ed0524473b95"
+    },
+    {
+      "path": "runtime/browser/153.0.8010.53/elevation_service.exe",
+      "size": 4326040,
+      "sha256": "3046651916b2b64490ab11091acbc38bb749c977e071a966fc4690881fc41f51"
+    },
+    {
+      "path": "runtime/browser/153.0.8010.53/eventlog_provider.dll",
+      "size": 16536,
+      "sha256": "008eaf6ed3e28bfd014ac6624a7664b2f8d0c84df6dbad32ff81e8f300e9db2b"
+    },
+    {
+      "path": "runtime/browser/153.0.8010.53/icudtl.dat",
+      "size": 10823536,
+      "sha256": "a3c6d7824935e87fed17e94c2d84b7683ef360ebc5c4ea92e2ca70f361bc9314"
+    },
+    {
+      "path": "runtime/browser/153.0.8010.53/IwaKeyDistribution/iwa-key-distribution.pb",
+      "size": 3519,
+      "sha256": "cf2be19520e0398b4b0ef38bef4940102bc9133d913dc990753cf2a38296e317"
+    },
+    {
+      "path": "runtime/browser/153.0.8010.53/libLiteRtWebGpuAccelerator.dll",
+      "size": 9560216,
+      "sha256": "d70853039f592b7dd8e8db76201dc6f27f4498a12d1982be7959ce5a92989825"
+    },
+    {
+      "path": "runtime/browser/153.0.8010.53/Locales/en-US.pak",
+      "size": 513064,
+      "sha256": "eb0c3e566d9eede6af238b6900f8a952552a53ca5b56a14613adda1da4fe4beb"
+    },
+    {
+      "path": "runtime/browser/153.0.8010.53/Locales/zh-CN.pak",
+      "size": 521429,
+      "sha256": "adc37beef30efea94f2d8c1bf9b57f62b2492e3e990d93fc0ab2fef62c2c48ca"
+    },
+    {
+      "path": "runtime/browser/153.0.8010.53/MEIPreload/preloaded_data.pb",
+      "size": 8254,
+      "sha256": "c6070a157b4e28d16fbccbd233e93846ddb070c85e1a1bc64469b7a5f1424fad"
+    },
+    {
+      "path": "runtime/browser/153.0.8010.53/notification_helper.exe",
+      "size": 2811544,
+      "sha256": "8526deb741367a0a2fa1241f15bc718a8b6196f5c704ba3dd448e488cf8aa05e"
+    },
+    {
+      "path": "runtime/browser/153.0.8010.53/optimization_guide_internal.dll",
+      "size": 24273048,
+      "sha256": "feb0358b92e514ce5c065426e0b1bdcd70d86f3e2ee73b1190653a2a2c3d09a5"
+    },
+    {
+      "path": "runtime/browser/153.0.8010.53/os_update_handler.exe",
+      "size": 3429528,
+      "sha256": "917237765df8b8b510bc093843d13654f4395b90d598f9450ccd20e0ed1ae689"
+    },
+    {
+      "path": "runtime/browser/153.0.8010.53/PrivacySandboxAttestationsPreloaded/privacy-sandbox-attestations.dat",
+      "size": 7624,
+      "sha256": "59e345dc13aedee9ea46b92e58300ecaca944aaea9384c7af885400ac2ae8806"
+    },
+    {
+      "path": "runtime/browser/153.0.8010.53/resources.pak",
+      "size": 24351290,
+      "sha256": "5ef62a9ca8d63b5c2d40d0175d90980547a72856bb169fe872048d73a8f2cc06"
+    },
+    {
+      "path": "runtime/browser/153.0.8010.53/sapisid.dll",
+      "size": 596632,
+      "sha256": "7c555f937a9abc2c73e94e72aaf9f96c6b089b829499e48305bdea72fd944024"
+    },
+    {
+      "path": "runtime/browser/153.0.8010.53/v8_context_snapshot.bin",
+      "size": 747232,
+      "sha256": "7255e63ee34038288e376f6eff2e845becbe6c5f1fcc8fb1f2ad0a1374ca739d"
+    },
+    {
+      "path": "runtime/browser/153.0.8010.53/vk_swiftshader.dll",
+      "size": 5431448,
+      "sha256": "c4f4b89071b9a945034981f145eb5dc7975cdea2e845e43212205a73e822f31e"
+    },
+    {
+      "path": "runtime/browser/153.0.8010.53/vk_swiftshader_icd.json",
+      "size": 106,
+      "sha256": "32d83ff113fef532a9f97e0d2831f8656628ab1c99e9060f0332b1532839afd9"
+    },
+    {
+      "path": "runtime/browser/153.0.8010.53/vulkan-1.dll",
+      "size": 999064,
+      "sha256": "76013a170dc325c9abdfc79b902d3e35c605335c7ec670fb6049f1da911f8aae"
+    },
+    {
+      "path": "runtime/browser/chrome.exe",
+      "size": 4507288,
+      "sha256": "e8bce39747ea63c9c7d4306f7635d2916c9ecb0cf913fbcf5e7acc4539b5b8a0"
+    },
+    {
+      "path": "runtime/python/DLLs/_asyncio.pyd",
+      "size": 75056,
+      "sha256": "c32c4cde3ba5364fe60693cfdf77e7a5033b812e3b771c31cf3bf062c7694bb7"
+    },
+    {
+      "path": "runtime/python/DLLs/_bz2.pyd",
+      "size": 88880,
+      "sha256": "54268c5cbefd96d9df377b40817cc09447d3a0a6734c300c442c0dde30cc75d7"
+    },
+    {
+      "path": "runtime/python/DLLs/_ctypes.pyd",
+      "size": 131888,
+      "sha256": "eb533050b0b61203cc4918da1826372add87fe4acddb3f6e7b31301c7f93e67d"
+    },
+    {
+      "path": "runtime/python/DLLs/_decimal.pyd",
+      "size": 263984,
+      "sha256": "539f8c32a3eafcf717cddbccf243167610671c5243ec3c7c40987d81066a557f"
+    },
+    {
+      "path": "runtime/python/DLLs/_elementtree.pyd",
+      "size": 137520,
+      "sha256": "abb69428efa1dbf893f904424abed3cdfecb5357e450ddda544efb96ad8bb7d5"
+    },
+    {
+      "path": "runtime/python/DLLs/_hashlib.pyd",
+      "size": 70448,
+      "sha256": "d99963665f72156067b432753d153ea456d0a0fa49d235c9b61bdb0a0d372ba4"
+    },
+    {
+      "path": "runtime/python/DLLs/_lzma.pyd",
+      "size": 168240,
+      "sha256": "6337c7e78b7753865b2759cf296449b9d7af6aae0708b364ab9550dad00272be"
+    },
+    {
+      "path": "runtime/python/DLLs/_msi.pyd",
+      "size": 48944,
+      "sha256": "5756eaa6468578064e8d7d8ecf172d1025dd173784ad39a09c4664b1722015b7"
+    },
+    {
+      "path": "runtime/python/DLLs/_multiprocessing.pyd",
+      "size": 39728,
+      "sha256": "d7a31223cc28115a179bdee1b48d690b5ab40377bd362b4d996a14268bee3fe5"
+    },
+    {
+      "path": "runtime/python/DLLs/_overlapped.pyd",
+      "size": 59696,
+      "sha256": "51a995c207d62f0260b0dad3ea2ceecef8ec97c68a39633a71bf6528b70778fe"
+    },
+    {
+      "path": "runtime/python/DLLs/_queue.pyd",
+      "size": 36144,
+      "sha256": "58e25f92fdb920e0f3a57f444f89e35076d26758e8362098161f6ac7e6e6e04c"
+    },
+    {
+      "path": "runtime/python/DLLs/_socket.pyd",
+      "size": 87344,
+      "sha256": "371ae9f492330c021cb371a2e5be88ecb38b4e0dcb45a9f47376502b7920ff17"
+    },
+    {
+      "path": "runtime/python/DLLs/_sqlite3.pyd",
+      "size": 127792,
+      "sha256": "875c66adc9c9fd5efdc5582c7ea5d04cdb060308f63240d6d1032e8023ba2bda"
+    },
+    {
+      "path": "runtime/python/DLLs/_ssl.pyd",
+      "size": 180528,
+      "sha256": "d71677bb53df30a58510d0985174132f12374207310aa4895d8a6b8b8fcc66a3"
+    },
+    {
+      "path": "runtime/python/DLLs/_uuid.pyd",
+      "size": 29488,
+      "sha256": "894f95ed8be644b3778a9836afd9bdbd6bd31df7788fd2683aff830b60badefa"
+    },
+    {
+      "path": "runtime/python/DLLs/_wmi.pyd",
+      "size": 41264,
+      "sha256": "ea6ee0a2091687f2d68bfa6f871af2377c073a1b980db87082fb8887cca12a65"
+    },
+    {
+      "path": "runtime/python/DLLs/_zoneinfo.pyd",
+      "size": 52016,
+      "sha256": "ed34859eed62915ee1756dc264ef9656ab38e8d5fd250be10ee4df2f9f3a6599"
+    },
+    {
+      "path": "runtime/python/DLLs/libcrypto-3-x64.dll",
+      "size": 8003376,
+      "sha256": "35e0ae43af2876903b00ba955e400f6da1787defb1ba18b7ff35e540c7f4ed66"
+    },
+    {
+      "path": "runtime/python/DLLs/libffi-8.dll",
+      "size": 43824,
+      "sha256": "34985fc0a2d5942dd6c0cf3205549dc56ed6ebef410884419c87e5fe4e00e988"
+    },
+    {
+      "path": "runtime/python/DLLs/libssl-3-x64.dll",
+      "size": 1599280,
+      "sha256": "5bb445df170ac3df4524cd1f7edbad09bb249b77d1144f58ebd1615f730d162e"
+    },
+    {
+      "path": "runtime/python/DLLs/pyexpat.pyd",
+      "size": 226096,
+      "sha256": "6805f27fe87f66249f1a94098ebe4fa387e93bf1f0f751b49db55c25ecfb966d"
+    },
+    {
+      "path": "runtime/python/DLLs/select.pyd",
+      "size": 34608,
+      "sha256": "f04b6cb67a4fe77545bf7ebfb320b6ad216b5dc743215a33d70cd081233c94ac"
+    },
+    {
+      "path": "runtime/python/DLLs/sqlite3.dll",
+      "size": 1623344,
+      "sha256": "bcef9117c3a2a3d0d46d098d28e679f312b2f874482f6825e29d082b1652e127"
+    },
+    {
+      "path": "runtime/python/DLLs/unicodedata.pyd",
+      "size": 1143600,
+      "sha256": "6429fe36429af848faea82122ebd7f5c72b05d9ba643d0b3a92eafaf9f27d10c"
+    },
+    {
+      "path": "runtime/python/DLLs/winsound.pyd",
+      "size": 34096,
+      "sha256": "323ab6266ffec02f14ff0b64165933306f1053a4c8d778f7eb011a0bd15e3a6f"
+    },
+    {
+      "path": "runtime/python/LICENSE.txt",
+      "size": 25066,
+      "sha256": "886a0ead2d89030ee62dbff52b04e47ab91998341295bb9c56fb952b4e081c7a"
+    },
+    {
+      "path": "runtime/python/python.exe",
+      "size": 107312,
+      "sha256": "372c2eae555b344520bf147be0096e009069aeca4e7f78d6aecea6d53158056a"
+    },
+    {
+      "path": "runtime/python/python3.dll",
+      "size": 71984,
+      "sha256": "c57bc21e131857f26db78d1512fbfcf67cac3273ee8b1cd704ed5645ec250884"
+    },
+    {
+      "path": "runtime/python/python312._pth",
+      "size": 84,
+      "sha256": "d10eea39db4d9b60cc96768e67cb749fb0b697202363522b760aaf51e01f6100"
+    },
+    {
+      "path": "runtime/python/python312.dll",
+      "size": 6985520,
+      "sha256": "c1ce6d603041759061139f482c4b90c4ac9db676e30abf52fda66a794aab1bd0"
+    },
+    {
+      "path": "runtime/python/python312.zip",
+      "size": 2698530,
+      "sha256": "dd9e0ec5f5de15bb8e6e413bd53e34117ecfd18eb112d3105b50a4b630fac1ad"
+    },
+    {
+      "path": "runtime/python/pythonw.exe",
+      "size": 105776,
+      "sha256": "097e62213eeb18ec5badab18acaac76986e684695598b2aeb68334aafb6ba055"
+    },
+    {
+      "path": "runtime/python/vcruntime140.dll",
+      "size": 124544,
+      "sha256": "d5e4d9a3e835fa679450145d6a7d94e36573a509317111904d9b3712c30d9066"
+    },
+    {
+      "path": "runtime/python/vcruntime140_1.dll",
+      "size": 49792,
+      "sha256": "1f2d41c4aa5db0bc33ebf7b66d72943a817d7ce6cbe880502a9403823633093f"
+    }
+  ],
+  "application_files": [
+    {
+      "path": "launcher.py",
+      "size": 17517,
+      "sha256": "8858fb5cd1492442463718de90391b93a57c808515be8c40005995ffb8dec746"
+    },
+    {
+      "path": "data/catalog.json",
+      "size": 21163345,
+      "sha256": "b2f2822b875d6c2223e72694b50e58773b8c2bc2564a4f44f1a1bc90896e2f1d"
+    },
+    {
+      "path": "data/topologies.json",
+      "size": 356382,
+      "sha256": "ddec4577836afd3db49bf31e7bd2386ce6336235afdb0dbe4d5377699ca33e3f"
+    },
+    {
+      "path": "data/template_normalization.json",
+      "size": 2720,
+      "sha256": "5a51b0102093734ca74009dcc2880f1baa9a2cb2ec87157540cfb15b07b6f0a5"
+    },
+    {
+      "path": "preview/index.html",
+      "size": 14250,
+      "sha256": "faa2cd5379265bdf1ccf08ad4881a99214b41600918f849fc4632c529a00f29e"
+    },
+    {
+      "path": "preview/attachment.html",
+      "size": 5664,
+      "sha256": "b634f634e9af7f413e1405ebd8769192a911ae4669a6df7226621b6fb165fcb0"
+    },
+    {
+      "path": "preview/app.css",
+      "size": 30296,
+      "sha256": "87a7da6277c7e30029f2e29f02d585e731aa8cf10780917bdebdf14d50e536ef"
+    },
+    {
+      "path": "preview/app.js",
+      "size": 35476,
+      "sha256": "7b5ec48941d8efa4c4275984a43b5291e618fde6707bcf2f902d2d2e9f4c1a9f"
+    },
+    {
+      "path": "matching/__init__.py",
+      "size": 322,
+      "sha256": "46e2a24ec3eb4aff2cc2255d9458aa4478b5a3151adb42d5aa374a46679d701e"
+    },
+    {
+      "path": "matching/__main__.py",
+      "size": 48,
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+    },
+    {
+      "path": "matching/attachments.py",
+      "size": 7476,
+      "sha256": "66e6104b13db0f674a7d5d1e554eb7da15ecdf2fe2fe91c3170182f7028b0c69"
+    },
+    {
+      "path": "matching/catalog.py",
+      "size": 23622,
+      "sha256": "f772dcbfd9c6d9f1845b218135570740031704fe8bb6d19a22287307c753b41e"
+    },
+    {
+      "path": "matching/cli.py",
+      "size": 6446,
+      "sha256": "65e042034843d790e6c948643bb23534fdde1318d61329178ba6cc05b9406944"
+    },
+    {
+      "path": "matching/engine.py",
+      "size": 13609,
+      "sha256": "ba43d325feb25bbc019b6c1cdf0acbf25076b1fe36c38c11dfb0ae4cefb86050"
+    },
+    {
+      "path": "matching/render.py",
+      "size": 5252,
+      "sha256": "99eed0a06157205523d4f5e999b932c12323d144ca9610680b17412171f59886"
+    },
+    {
+      "path": "matching/server.py",
+      "size": 5647,
+      "sha256": "b9df588de382c2e87d011f02f2678b16797ac1b04bc62a3b511734caea4ab2d1"
+    },
+    {
+      "path": "matching/topology.py",
+      "size": 23498,
+      "sha256": "38f42d28d0280bad5083d157acf6bf08919de681d9d41a78b723e73efb8b576d"
+    },
+    {
+      "path": "matching/wolfram.py",
+      "size": 4105,
+      "sha256": "1d42478659c71a4022397e56270e06670269d3ee1084f67a366af08c8dc1fd01"
+    },
+    {
+      "path": "preview/i18n.js",
+      "size": 14070,
+      "sha256": "2387c9595747a7180b3c3ad087ecc589dcdd057f2ed79c1ef02aea0e93d55e9f"
+    },
+    {
+      "path": "preview/attachment.js",
+      "size": 4825,
+      "sha256": "09021c7c061fbd6d7a007318e6a2d87edc2219d919c2e0978b1f0e2f9fba2835"
+    },
+    {
+      "path": "0νββ 模型探索.exe",
+      "size": 112128,
+      "sha256": "d9af00303b7273ad649ce4b18cff06ceb243acc9abe6b66df39c1ef88a787d23"
+    },
+    {
+      "path": "preview/app-icon.svg",
+      "size": 1550,
+      "sha256": "49bc363e1b6a7b4add186f995a1183ea98ca790770b9fbba5087ea05ace7c8e0"
+    },
+    {
+      "path": "preview/app-icon.ico",
+      "size": 92776,
+      "sha256": "60b62d82635eb52a07d2f8af131977ea8687e58b82be6088b9a749e6f9677956"
+    }
+  ],
+  "system_requirements": "Windows x64; operating-system components and fonts only",
+  "application_name": "0νββ Model Explorer",
+  "application_entry": "0νββ 模型探索.exe",
+  "application_icon": "preview/app-icon.ico"
+}

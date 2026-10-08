@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="/assets/app-icon.svg">
+<title>0νββ · Topology → Attachment</title>
+<style>
+:root{color-scheme:light;font-family:system-ui,"Microsoft YaHei",sans-serif;color:#1b3047;background:#f2f5f8}*{box-sizing:border-box}
+body{margin:0}header{padding:26px 36px 20px;background:white;border-bottom:1px solid #dce4ec}
+h1{font-size:25px;margin:0 0 8px;font-weight:650}header p{margin:0;color:#61738a;font-size:14px}
+main{display:grid;grid-template-columns:260px minmax(420px,1fr) 290px;gap:20px;max-width:1500px;margin:24px auto;padding:0 24px}
+.panel{background:white;border:1px solid #dce4ec;border-radius:14px;padding:18px}.sidebar h2{font-size:14px;margin:0 0 14px}
+input{width:100%;padding:10px;border:1px solid #bccbdc;border-radius:8px;font:inherit;font-size:14px}
+button{font:inherit;cursor:pointer;border:1px solid #c9d7e5;background:white;color:#23496e;border-radius:8px;padding:9px 12px}
+button:hover{background:#eaf3fd}.diagram-list{display:grid;gap:7px;margin-top:14px;max-height:550px;overflow:auto}.diagram-list button{text-align:left;font-family:ui-monospace,monospace}
+.diagram-list button.current{background:#eaf3fd;border-color:#5894cc}.muted{font-size:12px;color:#74849a;line-height:1.6}
+.canvas{min-height:660px;display:flex;flex-direction:column}.steps{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.steps button.active{background:#1e557f;color:white;border-color:#1e557f}.identity{display:flex;justify-content:space-between;gap:15px;align-items:center}
+h2#diagram-title{font-size:20px;margin:2px 0 10px;font-family:ui-monospace,monospace}.badge{background:#edf5ef;color:#317345;padding:5px 9px;border-radius:30px;font-size:12px}
+#figure{flex:1;display:flex;align-items:center;justify-content:center;min-height:440px}#figure svg{display:block;width:100%;max-height:550px}
+#fields{border-top:1px solid #e6ecf2;padding-top:12px;font-size:13px;color:#516780}#error{color:#a53232;font-size:13px;min-height:18px}
+#line-list{display:grid;gap:5px;max-height:570px;overflow:auto}.line-row{display:flex;justify-content:space-between;text-align:left;font-size:13px}
+.line-row.active{background:#eaf3fd;border-color:#5999ce}.line-row span:first-child{color:#78899e;width:35px}.line-row strong{font-family:Georgia,serif;font-weight:500}
+#detail{font-size:12px;color:#516780;border-top:1px solid #e6ecf2;margin-top:14px;padding-top:12px;min-height:70px;line-height:1.8;overflow-wrap:anywhere}
+@media(max-width:1100px){main{grid-template-columns:210px minmax(380px,1fr)}.properties{grid-column:1/-1}#line-list{grid-template-columns:repeat(4,1fr)}}
+@media(max-width:700px){header{padding:20px}main{display:block;padding:0 12px}.panel{margin-bottom:14px}.canvas{min-height:480px}#figure{min-height:300px}.diagram-list{grid-template-columns:repeat(3,1fr)}#line-list{grid-template-columns:repeat(2,1fr)}}
+
+header{position:relative;padding-right:190px}.language-control{display:flex;align-items:center;gap:8px;font-size:12px;color:#61738a;position:absolute;right:36px;top:28px}.language-control select{font:inherit;background:#fff;color:#23496e;border:1px solid #c9d7e5;border-radius:6px;padding:6px;max-width:110px}@media(max-width:700px){header{padding:20px}.language-control{position:static;margin-top:14px}}
+</style>
+<script src="/assets/i18n.js" defer></script>
+<script src="/assets/attachment.js" defer></script>
+<header><h1><span data-i18n="0νββ 模型图赋值">0νββ 模型图赋值</span></h1><p><span data-i18n="选择一个 model-diagram，查看拓扑、线编号与具体场的对应关系。">选择一个 model-diagram，查看拓扑、线编号与具体场的对应关系。</span></p><label class="language-control"><span data-i18n="语言">语言</span><select id="language" data-language aria-label="选择界面语言" data-i18n-aria-label="选择界面语言"><option value="zh-CN" data-i18n="中文">中文</option><option value="en">English</option></select></label></header>
+<main>
+<section class="panel sidebar"><h2>Model-diagram</h2><input id="search" value="T1-1" placeholder="例如 T1-1-1" aria-label="搜索图编号" data-i18n-aria-label="搜索图编号" data-i18n-placeholder="例如 T1-1-1">
+<p class="muted" id="search-count"></p><div class="diagram-list" id="diagram-list"></div></section>
+<section class="panel canvas">
+<div class="steps" aria-label="展示阶段" data-i18n-aria-label="展示阶段">
+<button data-stage="topology">① Topology</button><button data-stage="diagram"><span data-i18n="② E / I 编号">② E / I 编号</span></button><button data-stage="attachment" class="active"><span data-i18n="③ 场赋值">③ 场赋值</span></button>
+</div><div class="identity"><h2 id="diagram-title">T1-1-1</h2><span class="badge" id="model-badge"></span></div>
+<div class="muted" id="pipeline"></div><p id="error" role="alert"></p><div id="figure" aria-live="polite"></div>
+<div id="fields"></div><p class="muted"><span data-i18n="悬停或点击一条线查看场属性；同一种新场对应的内部线会一起高亮。">悬停或点击一条线查看场属性；同一种新场对应的内部线会一起高亮。</span></p>
+</section>
+<section class="panel properties"><h2 style="font-size:14px;margin-top:0"><span data-i18n="线与场">线与场</span></h2><div id="line-list"></div><div id="detail"><span data-i18n="点击一条线查看量子数。">点击一条线查看量子数。</span></div></section>
+</main>
+</html>

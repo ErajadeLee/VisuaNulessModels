@@ -1,0 +1,60 @@
+{
+  "status": "ok",
+  "layouts": [
+    {
+      "language": "zh-CN",
+      "width": 390,
+      "fontSize": "12px",
+      "captionFont": "12px",
+      "clipped": [],
+      "overlaps": [],
+      "pageOverflow": false
+    },
+    {
+      "language": "zh-CN",
+      "width": 800,
+      "fontSize": "12px",
+      "captionFont": "12px",
+      "clipped": [],
+      "overlaps": [],
+      "pageOverflow": false
+    },
+    {
+      "language": "zh-CN",
+      "width": 1440,
+      "fontSize": "12px",
+      "captionFont": "12px",
+      "clipped": [],
+      "overlaps": [],
+      "pageOverflow": false
+    },
+    {
+      "language": "en",
+      "width": 390,
+      "fontSize": "12px",
+      "captionFont": "12px",
+      "clipped": [],
+      "overlaps": [],
+      "pageOverflow": false
+    },
+    {
+      "language": "en",
+      "width": 800,
+      "fontSize": "12px",
+      "captionFont": "12px",
+      "clipped": [],
+      "overlaps": [],
+      "pageOverflow": false
+    },
+    {
+      "language": "en",
+      "width": 1440,
+      "fontSize": "12px",
+      "captionFont": "12px",
+      "clipped": [],
+      "overlaps": [],
+      "pageOverflow": false
+    }
+  ],
+  "page_errors": []
+}

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="0.9" y2="1">
+      <stop stop-color="#284c73"/>
+      <stop offset="1" stop-color="#10243c"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0.3" cy="0.1" r="0.9">
+      <stop stop-color="#669bc4" stop-opacity=".20"/>
+      <stop offset="1" stop-color="#669bc4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="6" y="6" width="244" height="244" rx="54" fill="url(#tile)"/>
+  <rect x="6" y="6" width="244" height="244" rx="54" fill="url(#light)" stroke="#ffffff" stroke-opacity=".13" stroke-width="2"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M44 70L82 128M174 128L212 70" stroke="#e7f1ff" stroke-width="8"/>
+    <path d="M44 186L82 128M174 128L212 186" stroke="#8aafda" stroke-width="8" stroke-dasharray="9 12"/>
+    <path d="M82 128H174" stroke="#edc877" stroke-width="8"/>
+    <circle cx="82" cy="128" r="22" stroke="#b5d7ff" stroke-width="2" stroke-opacity=".28"/>
+    <circle cx="174" cy="128" r="22" stroke="#f8d994" stroke-width="2" stroke-opacity=".28"/>
+  </g>
+  <path d="M67 105L55 100L64 94Z" fill="#e7f1ff"/>
+  <path d="M201 87L189 94L198 99Z" fill="#e7f1ff"/>
+  <path d="M142 128L129 121L129 135Z" fill="#edc877"/>
+  <circle cx="82" cy="128" r="11" fill="#85b9ee"/>
+  <circle cx="174" cy="128" r="11" fill="#edc877"/>
+  <circle cx="82" cy="128" r="3.5" fill="#eaf4ff"/>
+  <circle cx="174" cy="128" r="3.5" fill="#fff5da"/>
+</svg>
+

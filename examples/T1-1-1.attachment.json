@@ -1,0 +1,1368 @@
+{
+  "catalog_id": "b9d18970a6c29e0c9bb385673219485854547476fd715ce3734a588ba5bf8a19",
+  "topology_catalog_id": "362b3709a113644342b8ec1862ab6fd8bf0e077814f59e727778f96f2049f75c",
+  "model_diagram_id": "T1-1-1",
+  "model_field_id": "MF-4i-155",
+  "model_id": "MF-4i-155",
+  "field_ids": [
+    13,
+    24,
+    52,
+    56
+  ],
+  "minimal": true,
+  "topology_id": "T1",
+  "template_id": "T1-1",
+  "pipeline": [
+    {
+      "stage": "topology",
+      "id": "T1"
+    },
+    {
+      "stage": "diagram",
+      "id": "T1-1"
+    },
+    {
+      "stage": "attachment",
+      "id": "T1-1-1"
+    }
+  ],
+  "topology": {
+    "id": "T1",
+    "vertices": [
+      {
+        "id": "c1",
+        "kind": "interaction"
+      },
+      {
+        "id": "c2",
+        "kind": "interaction"
+      },
+      {
+        "id": "c3",
+        "kind": "interaction"
+      },
+      {
+        "id": "c4",
+        "kind": "interaction"
+      },
+      {
+        "id": "e1",
+        "kind": "external"
+      },
+      {
+        "id": "e11",
+        "kind": "external"
+      },
+      {
+        "id": "e12",
+        "kind": "external"
+      },
+      {
+        "id": "e2",
+        "kind": "external"
+      },
+      {
+        "id": "e21",
+        "kind": "external"
+      },
+      {
+        "id": "e22",
+        "kind": "external"
+      },
+      {
+        "id": "e41",
+        "kind": "external"
+      },
+      {
+        "id": "e42",
+        "kind": "external"
+      },
+      {
+        "id": "o",
+        "kind": "interaction"
+      }
+    ],
+    "edges": [
+      {
+        "id": "T1:c1:e11",
+        "kind": "external",
+        "endpoints": [
+          "c1",
+          "e11"
+        ]
+      },
+      {
+        "id": "T1:c1:e12",
+        "kind": "external",
+        "endpoints": [
+          "c1",
+          "e12"
+        ]
+      },
+      {
+        "id": "T1:c1:o",
+        "kind": "internal",
+        "endpoints": [
+          "c1",
+          "o"
+        ]
+      },
+      {
+        "id": "T1:c2:e21",
+        "kind": "external",
+        "endpoints": [
+          "c2",
+          "e21"
+        ]
+      },
+      {
+        "id": "T1:c2:e22",
+        "kind": "external",
+        "endpoints": [
+          "c2",
+          "e22"
+        ]
+      },
+      {
+        "id": "T1:c2:o",
+        "kind": "internal",
+        "endpoints": [
+          "c2",
+          "o"
+        ]
+      },
+      {
+        "id": "T1:c3:c4",
+        "kind": "internal",
+        "endpoints": [
+          "c3",
+          "c4"
+        ]
+      },
+      {
+        "id": "T1:c3:e2",
+        "kind": "external",
+        "endpoints": [
+          "c3",
+          "e2"
+        ]
+      },
+      {
+        "id": "T1:c3:o",
+        "kind": "internal",
+        "endpoints": [
+          "c3",
+          "o"
+        ]
+      },
+      {
+        "id": "T1:c4:e41",
+        "kind": "external",
+        "endpoints": [
+          "c4",
+          "e41"
+        ]
+      },
+      {
+        "id": "T1:c4:e42",
+        "kind": "external",
+        "endpoints": [
+          "c4",
+          "e42"
+        ]
+      },
+      {
+        "id": "T1:e1:o",
+        "kind": "external",
+        "endpoints": [
+          "e1",
+          "o"
+        ]
+      }
+    ]
+  },
+  "attachment": {
+    "vertices": [
+      {
+        "id": "c1",
+        "kind": "interaction",
+        "x": -2.0,
+        "y": 1.7320508076,
+        "lm_vertex_id": 8,
+        "incident_slots": [
+          "E2",
+          "E6",
+          "I1"
+        ]
+      },
+      {
+        "id": "c2",
+        "kind": "interaction",
+        "x": -2.0,
+        "y": -1.7320508076,
+        "lm_vertex_id": 10,
+        "incident_slots": [
+          "E3",
+          "E7",
+          "I2"
+        ]
+      },
+      {
+        "id": "c3",
+        "kind": "interaction",
+        "x": 1.0,
+        "y": 0.0,
+        "lm_vertex_id": 12,
+        "incident_slots": [
+          "E8",
+          "I3",
+          "I4"
+        ]
+      },
+      {
+        "id": "c4",
+        "kind": "interaction",
+        "x": 2.0,
+        "y": 1.7320508076,
+        "lm_vertex_id": 6,
+        "incident_slots": [
+          "E1",
+          "E5",
+          "I4"
+        ]
+      },
+      {
+        "id": "e1",
+        "kind": "external",
+        "x": -3.0,
+        "y": 0.0,
+        "lm_vertex_id": 5,
+        "incident_slots": [
+          "E4"
+        ],
+        "attached_slot": "E4"
+      },
+      {
+        "id": "e11",
+        "kind": "external",
+        "x": -2.0,
+        "y": 3.7320508076,
+        "lm_vertex_id": 3,
+        "incident_slots": [
+          "E2"
+        ],
+        "attached_slot": "E2"
+      },
+      {
+        "id": "e12",
+        "kind": "external",
+        "x": -3.7320508076,
+        "y": 2.7320508076,
+        "lm_vertex_id": 9,
+        "incident_slots": [
+          "E6"
+        ],
+        "attached_slot": "E6"
+      },
+      {
+        "id": "e2",
+        "kind": "external",
+        "x": 2.0,
+        "y": -1.7320508076,
+        "lm_vertex_id": 13,
+        "incident_slots": [
+          "E8"
+        ],
+        "attached_slot": "E8"
+      },
+      {
+        "id": "e21",
+        "kind": "external",
+        "x": -3.7320508076,
+        "y": -2.7320508076,
+        "lm_vertex_id": 4,
+        "incident_slots": [
+          "E3"
+        ],
+        "attached_slot": "E3"
+      },
+      {
+        "id": "e22",
+        "kind": "external",
+        "x": -2.0,
+        "y": -3.7320508076,
+        "lm_vertex_id": 11,
+        "incident_slots": [
+          "E7"
+        ],
+        "attached_slot": "E7"
+      },
+      {
+        "id": "e41",
+        "kind": "external",
+        "x": 3.7320508076,
+        "y": 2.7320508076,
+        "lm_vertex_id": 7,
+        "incident_slots": [
+          "E5"
+        ],
+        "attached_slot": "E5"
+      },
+      {
+        "id": "e42",
+        "kind": "external",
+        "x": 2.0,
+        "y": 3.7320508076,
+        "lm_vertex_id": 2,
+        "incident_slots": [
+          "E1"
+        ],
+        "attached_slot": "E1"
+      },
+      {
+        "id": "o",
+        "kind": "interaction",
+        "x": -1.0,
+        "y": 0.0,
+        "lm_vertex_id": 1,
+        "incident_slots": [
+          "E4",
+          "I1",
+          "I2",
+          "I3"
+        ]
+      }
+    ],
+    "lines": [
+      {
+        "slot": "E1",
+        "edge_id": "T1:c4:e42",
+        "kind": "external",
+        "source": "c4",
+        "target": "e42",
+        "statistics": "F",
+        "line_type": "fermion",
+        "stroke_pattern": "solid",
+        "arrow": {
+          "source": "e42",
+          "target": "c4"
+        },
+        "label_position": [
+          2.0,
+          4.0320508076
+        ],
+        "source_style": "thick,anti fermion,small",
+        "source_slot": "E1",
+        "source_statistics": "F",
+        "lm_edge_number": -1,
+        "lm_endpoints": [
+          6,
+          2
+        ],
+        "field": {
+          "slot": "E1",
+          "kind": "sm",
+          "field_id": null,
+          "sm_symbol": "Q_L",
+          "statistics": "F",
+          "conjugated": true,
+          "conjugation": "charge",
+          "raw_label": "q_L^*",
+          "display_label": "Q_L^*",
+          "canonical_quantum": {
+            "su3": {
+              "dynkin": [
+                1,
+                0
+              ],
+              "dimension": 3
+            },
+            "su2": {
+              "dynkin": [
+                1
+              ],
+              "dimension": 2
+            },
+            "hypercharge": {
+              "numerator": 1,
+              "denominator": 6,
+              "text": "1/6"
+            }
+          },
+          "attached_quantum": {
+            "su3": {
+              "dynkin": [
+                0,
+                1
+              ],
+              "dimension": 3
+            },
+            "su2": {
+              "dynkin": [
+                1
+              ],
+              "dimension": 2
+            },
+            "hypercharge": {
+              "numerator": -1,
+              "denominator": 6,
+              "text": "-1/6"
+            }
+          }
+        }
+      },
+      {
+        "slot": "E2",
+        "edge_id": "T1:c1:e11",
+        "kind": "external",
+        "source": "c1",
+        "target": "e11",
+        "statistics": "F",
+        "line_type": "fermion",
+        "stroke_pattern": "solid",
+        "arrow": {
+          "source": "e11",
+          "target": "c1"
+        },
+        "label_position": [
+          -2.0,
+          4.0320508076
+        ],
+        "source_style": "thick,anti fermion,small",
+        "source_slot": "E2",
+        "source_statistics": "F",
+        "lm_edge_number": -2,
+        "lm_endpoints": [
+          3,
+          8
+        ],
+        "field": {
+          "slot": "E2",
+          "kind": "sm",
+          "field_id": null,
+          "sm_symbol": "Q_L",
+          "statistics": "F",
+          "conjugated": false,
+          "conjugation": null,
+          "raw_label": "q_L",
+          "display_label": "Q_L",
+          "canonical_quantum": {
+            "su3": {
+              "dynkin": [
+                1,
+                0
+              ],
+              "dimension": 3
+            },
+            "su2": {
+              "dynkin": [
+                1
+              ],
+              "dimension": 2
+            },
+            "hypercharge": {
+              "numerator": 1,
+              "denominator": 6,
+              "text": "1/6"
+            }
+          },
+          "attached_quantum": {
+            "su3": {
+              "dynkin": [
+                1,
+                0
+              ],
+              "dimension": 3
+            },
+            "su2": {
+              "dynkin": [
+                1
+              ],
+              "dimension": 2
+            },
+            "hypercharge": {
+              "numerator": 1,
+              "denominator": 6,
+              "text": "1/6"
+            }
+          }
+        }
+      },
+      {
+        "slot": "E3",
+        "edge_id": "T1:c2:e21",
+        "kind": "external",
+        "source": "c2",
+        "target": "e21",
+        "statistics": "F",
+        "line_type": "fermion",
+        "stroke_pattern": "solid",
+        "arrow": {
+          "source": "e21",
+          "target": "c2"
+        },
+        "label_position": [
+          -3.9918584287,
+          -2.8820508076
+        ],
+        "source_style": "thick,anti fermion,small",
+        "source_slot": "E3",
+        "source_statistics": "F",
+        "lm_edge_number": -3,
+        "lm_endpoints": [
+          10,
+          4
+        ],
+        "field": {
+          "slot": "E3",
+          "kind": "sm",
+          "field_id": null,
+          "sm_symbol": "u_R",
+          "statistics": "F",
+          "conjugated": true,
+          "conjugation": "charge",
+          "raw_label": "u_R^*",
+          "display_label": "u_R^*",
+          "canonical_quantum": {
+            "su3": {
+              "dynkin": [
+                1,
+                0
+              ],
+              "dimension": 3
+            },
+            "su2": {
+              "dynkin": [
+                0
+              ],
+              "dimension": 1
+            },
+            "hypercharge": {
+              "numerator": 2,
+              "denominator": 3,
+              "text": "2/3"
+            }
+          },
+          "attached_quantum": {
+            "su3": {
+              "dynkin": [
+                0,
+                1
+              ],
+              "dimension": 3
+            },
+            "su2": {
+              "dynkin": [
+                0
+              ],
+              "dimension": 1
+            },
+            "hypercharge": {
+              "numerator": -2,
+              "denominator": 3,
+              "text": "-2/3"
+            }
+          }
+        }
+      },
+      {
+        "slot": "E4",
+        "edge_id": "T1:e1:o",
+        "kind": "external",
+        "source": "o",
+        "target": "e1",
+        "statistics": "S",
+        "line_type": "scalar",
+        "stroke_pattern": "dashed",
+        "arrow": {
+          "source": "e1",
+          "target": "o"
+        },
+        "label_position": [
+          -3.3,
+          0.0
+        ],
+        "source_style": "thick,anti charged scalar,small",
+        "source_slot": "E4",
+        "source_statistics": "S",
+        "lm_edge_number": -4,
+        "lm_endpoints": [
+          1,
+          5
+        ],
+        "field": {
+          "slot": "E4",
+          "kind": "sm",
+          "field_id": null,
+          "sm_symbol": "H",
+          "statistics": "S",
+          "conjugated": true,
+          "conjugation": "complex",
+          "raw_label": "H^*",
+          "display_label": "H^*",
+          "canonical_quantum": {
+            "su3": {
+              "dynkin": [
+                0,
+                0
+              ],
+              "dimension": 1
+            },
+            "su2": {
+              "dynkin": [
+                1
+              ],
+              "dimension": 2
+            },
+            "hypercharge": {
+              "numerator": 1,
+              "denominator": 2,
+              "text": "1/2"
+            }
+          },
+          "attached_quantum": {
+            "su3": {
+              "dynkin": [
+                0,
+                0
+              ],
+              "dimension": 1
+            },
+            "su2": {
+              "dynkin": [
+                1
+              ],
+              "dimension": 2
+            },
+            "hypercharge": {
+              "numerator": -1,
+              "denominator": 2,
+              "text": "-1/2"
+            }
+          }
+        }
+      },
+      {
+        "slot": "E5",
+        "edge_id": "T1:c4:e41",
+        "kind": "external",
+        "source": "c4",
+        "target": "e41",
+        "statistics": "F",
+        "line_type": "fermion",
+        "stroke_pattern": "solid",
+        "arrow": {
+          "source": "e41",
+          "target": "c4"
+        },
+        "label_position": [
+          3.9918584287,
+          2.8820508076
+        ],
+        "source_style": "thick,anti fermion,small",
+        "source_slot": "E5",
+        "source_statistics": "F",
+        "lm_edge_number": -5,
+        "lm_endpoints": [
+          7,
+          6
+        ],
+        "field": {
+          "slot": "E5",
+          "kind": "sm",
+          "field_id": null,
+          "sm_symbol": "d_R",
+          "statistics": "F",
+          "conjugated": false,
+          "conjugation": null,
+          "raw_label": "d_R",
+          "display_label": "d_R",
+          "canonical_quantum": {
+            "su3": {
+              "dynkin": [
+                1,
+                0
+              ],
+              "dimension": 3
+            },
+            "su2": {
+              "dynkin": [
+                0
+              ],
+              "dimension": 1
+            },
+            "hypercharge": {
+              "numerator": -1,
+              "denominator": 3,
+              "text": "-1/3"
+            }
+          },
+          "attached_quantum": {
+            "su3": {
+              "dynkin": [
+                1,
+                0
+              ],
+              "dimension": 3
+            },
+            "su2": {
+              "dynkin": [
+                0
+              ],
+              "dimension": 1
+            },
+            "hypercharge": {
+              "numerator": -1,
+              "denominator": 3,
+              "text": "-1/3"
+            }
+          }
+        }
+      },
+      {
+        "slot": "E6",
+        "edge_id": "T1:c1:e12",
+        "kind": "external",
+        "source": "c1",
+        "target": "e12",
+        "statistics": "F",
+        "line_type": "fermion",
+        "stroke_pattern": "solid",
+        "arrow": {
+          "source": "e12",
+          "target": "c1"
+        },
+        "label_position": [
+          -3.9918584287,
+          2.8820508076
+        ],
+        "source_style": "thick,anti fermion,small",
+        "source_slot": "E6",
+        "source_statistics": "F",
+        "lm_edge_number": -6,
+        "lm_endpoints": [
+          8,
+          9
+        ],
+        "field": {
+          "slot": "E6",
+          "kind": "sm",
+          "field_id": null,
+          "sm_symbol": "e_R",
+          "statistics": "F",
+          "conjugated": true,
+          "conjugation": "charge",
+          "raw_label": "e_R^*",
+          "display_label": "e_R^*",
+          "canonical_quantum": {
+            "su3": {
+              "dynkin": [
+                0,
+                0
+              ],
+              "dimension": 1
+            },
+            "su2": {
+              "dynkin": [
+                0
+              ],
+              "dimension": 1
+            },
+            "hypercharge": {
+              "numerator": -1,
+              "denominator": 1,
+              "text": "-1"
+            }
+          },
+          "attached_quantum": {
+            "su3": {
+              "dynkin": [
+                0,
+                0
+              ],
+              "dimension": 1
+            },
+            "su2": {
+              "dynkin": [
+                0
+              ],
+              "dimension": 1
+            },
+            "hypercharge": {
+              "numerator": 1,
+              "denominator": 1,
+              "text": "1"
+            }
+          }
+        }
+      },
+      {
+        "slot": "E7",
+        "edge_id": "T1:c2:e22",
+        "kind": "external",
+        "source": "c2",
+        "target": "e22",
+        "statistics": "F",
+        "line_type": "fermion",
+        "stroke_pattern": "solid",
+        "arrow": {
+          "source": "e22",
+          "target": "c2"
+        },
+        "label_position": [
+          -2.0,
+          -4.0320508076
+        ],
+        "source_style": "thick,anti fermion,small",
+        "source_slot": "E7",
+        "source_statistics": "F",
+        "lm_edge_number": -7,
+        "lm_endpoints": [
+          10,
+          11
+        ],
+        "field": {
+          "slot": "E7",
+          "kind": "sm",
+          "field_id": null,
+          "sm_symbol": "e_R",
+          "statistics": "F",
+          "conjugated": true,
+          "conjugation": "charge",
+          "raw_label": "e_R^*",
+          "display_label": "e_R^*",
+          "canonical_quantum": {
+            "su3": {
+              "dynkin": [
+                0,
+                0
+              ],
+              "dimension": 1
+            },
+            "su2": {
+              "dynkin": [
+                0
+              ],
+              "dimension": 1
+            },
+            "hypercharge": {
+              "numerator": -1,
+              "denominator": 1,
+              "text": "-1"
+            }
+          },
+          "attached_quantum": {
+            "su3": {
+              "dynkin": [
+                0,
+                0
+              ],
+              "dimension": 1
+            },
+            "su2": {
+              "dynkin": [
+                0
+              ],
+              "dimension": 1
+            },
+            "hypercharge": {
+              "numerator": 1,
+              "denominator": 1,
+              "text": "1"
+            }
+          }
+        }
+      },
+      {
+        "slot": "E8",
+        "edge_id": "T1:c3:e2",
+        "kind": "external",
+        "source": "c3",
+        "target": "e2",
+        "statistics": "S",
+        "line_type": "scalar",
+        "stroke_pattern": "dashed",
+        "arrow": {
+          "source": "e2",
+          "target": "c3"
+        },
+        "label_position": [
+          2.15,
+          -1.9918584287
+        ],
+        "source_style": "thick,anti charged scalar,small",
+        "source_slot": "E8",
+        "source_statistics": "S",
+        "lm_edge_number": -8,
+        "lm_endpoints": [
+          12,
+          13
+        ],
+        "field": {
+          "slot": "E8",
+          "kind": "sm",
+          "field_id": null,
+          "sm_symbol": "H",
+          "statistics": "S",
+          "conjugated": true,
+          "conjugation": "complex",
+          "raw_label": "H^*",
+          "display_label": "H^*",
+          "canonical_quantum": {
+            "su3": {
+              "dynkin": [
+                0,
+                0
+              ],
+              "dimension": 1
+            },
+            "su2": {
+              "dynkin": [
+                1
+              ],
+              "dimension": 2
+            },
+            "hypercharge": {
+              "numerator": 1,
+              "denominator": 2,
+              "text": "1/2"
+            }
+          },
+          "attached_quantum": {
+            "su3": {
+              "dynkin": [
+                0,
+                0
+              ],
+              "dimension": 1
+            },
+            "su2": {
+              "dynkin": [
+                1
+              ],
+              "dimension": 2
+            },
+            "hypercharge": {
+              "numerator": -1,
+              "denominator": 2,
+              "text": "-1/2"
+            }
+          }
+        }
+      },
+      {
+        "slot": "I1",
+        "edge_id": "T1:c1:o",
+        "kind": "internal",
+        "source": "o",
+        "target": "c1",
+        "statistics": "S",
+        "line_type": "scalar",
+        "stroke_pattern": "dashed",
+        "arrow": {
+          "source": "o",
+          "target": "c1"
+        },
+        "label_position": [
+          -1.2921539030908011,
+          0.9860254037983829
+        ],
+        "source_style": "thick,scalar,edge label'=\\scriptsize$I_1$,charged scalar,small",
+        "source_slot": "I1",
+        "source_statistics": "S",
+        "lm_edge_number": 1,
+        "lm_endpoints": [
+          1,
+          8
+        ],
+        "field": {
+          "slot": "I1",
+          "kind": "bsm",
+          "field_id": 24,
+          "sm_symbol": null,
+          "statistics": "S",
+          "conjugated": true,
+          "conjugation": "complex",
+          "raw_label": "24^*",
+          "display_label": "24^*",
+          "canonical_quantum": {
+            "su3": {
+              "dynkin": [
+                1,
+                0
+              ],
+              "dimension": 3
+            },
+            "su2": {
+              "dynkin": [
+                1
+              ],
+              "dimension": 2
+            },
+            "hypercharge": {
+              "numerator": 7,
+              "denominator": 6,
+              "text": "7/6"
+            }
+          },
+          "attached_quantum": {
+            "su3": {
+              "dynkin": [
+                0,
+                1
+              ],
+              "dimension": 3
+            },
+            "su2": {
+              "dynkin": [
+                1
+              ],
+              "dimension": 2
+            },
+            "hypercharge": {
+              "numerator": -7,
+              "denominator": 6,
+              "text": "-7/6"
+            }
+          }
+        }
+      },
+      {
+        "slot": "I2",
+        "edge_id": "T1:c2:o",
+        "kind": "internal",
+        "source": "o",
+        "target": "c2",
+        "statistics": "S",
+        "line_type": "scalar",
+        "stroke_pattern": "dashed",
+        "arrow": {
+          "source": "o",
+          "target": "c2"
+        },
+        "label_position": [
+          -1.2921539030908011,
+          -0.9860254037983829
+        ],
+        "source_style": "thick,scalar,edge label=\\scriptsize$I_2$,charged scalar,small",
+        "source_slot": "I2",
+        "source_statistics": "S",
+        "lm_edge_number": 2,
+        "lm_endpoints": [
+          1,
+          10
+        ],
+        "field": {
+          "slot": "I2",
+          "kind": "bsm",
+          "field_id": 13,
+          "sm_symbol": null,
+          "statistics": "S",
+          "conjugated": false,
+          "conjugation": null,
+          "raw_label": "13",
+          "display_label": "13",
+          "canonical_quantum": {
+            "su3": {
+              "dynkin": [
+                1,
+                0
+              ],
+              "dimension": 3
+            },
+            "su2": {
+              "dynkin": [
+                0
+              ],
+              "dimension": 1
+            },
+            "hypercharge": {
+              "numerator": -1,
+              "denominator": 3,
+              "text": "-1/3"
+            }
+          },
+          "attached_quantum": {
+            "su3": {
+              "dynkin": [
+                1,
+                0
+              ],
+              "dimension": 3
+            },
+            "su2": {
+              "dynkin": [
+                0
+              ],
+              "dimension": 1
+            },
+            "hypercharge": {
+              "numerator": -1,
+              "denominator": 3,
+              "text": "-1/3"
+            }
+          }
+        }
+      },
+      {
+        "slot": "I3",
+        "edge_id": "T1:c3:o",
+        "kind": "internal",
+        "source": "o",
+        "target": "c3",
+        "statistics": "S",
+        "line_type": "scalar",
+        "stroke_pattern": "dashed",
+        "arrow": {
+          "source": "o",
+          "target": "c3"
+        },
+        "label_position": [
+          0.0,
+          -0.24
+        ],
+        "source_style": "thick,scalar,edge label'=\\scriptsize$I_3$,charged scalar,small",
+        "source_slot": "I3",
+        "source_statistics": "S",
+        "lm_edge_number": 3,
+        "lm_endpoints": [
+          1,
+          12
+        ],
+        "field": {
+          "slot": "I3",
+          "kind": "bsm",
+          "field_id": 52,
+          "sm_symbol": null,
+          "statistics": "S",
+          "conjugated": true,
+          "conjugation": "complex",
+          "raw_label": "52^*",
+          "display_label": "52^*",
+          "canonical_quantum": {
+            "su3": {
+              "dynkin": [
+                1,
+                1
+              ],
+              "dimension": 8
+            },
+            "su2": {
+              "dynkin": [
+                0
+              ],
+              "dimension": 1
+            },
+            "hypercharge": {
+              "numerator": -1,
+              "denominator": 1,
+              "text": "-1"
+            }
+          },
+          "attached_quantum": {
+            "su3": {
+              "dynkin": [
+                1,
+                1
+              ],
+              "dimension": 8
+            },
+            "su2": {
+              "dynkin": [
+                0
+              ],
+              "dimension": 1
+            },
+            "hypercharge": {
+              "numerator": 1,
+              "denominator": 1,
+              "text": "1"
+            }
+          }
+        }
+      },
+      {
+        "slot": "I4",
+        "edge_id": "T1:c3:c4",
+        "kind": "internal",
+        "source": "c3",
+        "target": "c4",
+        "statistics": "S",
+        "line_type": "scalar",
+        "stroke_pattern": "dashed",
+        "arrow": {
+          "source": "c4",
+          "target": "c3"
+        },
+        "label_position": [
+          1.7078460969091989,
+          0.7460254038016172
+        ],
+        "source_style": "thick,scalar,edge label'=\\scriptsize$I_4$,anti charged scalar,small",
+        "source_slot": "I4",
+        "source_statistics": "S",
+        "lm_edge_number": 4,
+        "lm_endpoints": [
+          6,
+          12
+        ],
+        "field": {
+          "slot": "I4",
+          "kind": "bsm",
+          "field_id": 56,
+          "sm_symbol": null,
+          "statistics": "S",
+          "conjugated": false,
+          "conjugation": null,
+          "raw_label": "56",
+          "display_label": "56",
+          "canonical_quantum": {
+            "su3": {
+              "dynkin": [
+                1,
+                1
+              ],
+              "dimension": 8
+            },
+            "su2": {
+              "dynkin": [
+                1
+              ],
+              "dimension": 2
+            },
+            "hypercharge": {
+              "numerator": -1,
+              "denominator": 2,
+              "text": "-1/2"
+            }
+          },
+          "attached_quantum": {
+            "su3": {
+              "dynkin": [
+                1,
+                1
+              ],
+              "dimension": 8
+            },
+            "su2": {
+              "dynkin": [
+                1
+              ],
+              "dimension": 2
+            },
+            "hypercharge": {
+              "numerator": -1,
+              "denominator": 2,
+              "text": "-1/2"
+            }
+          }
+        }
+      }
+    ],
+    "vertex_attachments": {
+      "c1": {
+        "external_slots": [
+          "E2",
+          "E6"
+        ],
+        "internal_slots": [
+          "I1"
+        ]
+      },
+      "c2": {
+        "external_slots": [
+          "E3",
+          "E7"
+        ],
+        "internal_slots": [
+          "I2"
+        ]
+      },
+      "c3": {
+        "external_slots": [
+          "E8"
+        ],
+        "internal_slots": [
+          "I3",
+          "I4"
+        ]
+      },
+      "c4": {
+        "external_slots": [
+          "E1",
+          "E5"
+        ],
+        "internal_slots": [
+          "I4"
+        ]
+      },
+      "o": {
+        "external_slots": [
+          "E4"
+        ],
+        "internal_slots": [
+          "I1",
+          "I2",
+          "I3"
+        ]
+      }
+    }
+  },
+  "slot_to_edge": {
+    "E1": "T1:c4:e42",
+    "E2": "T1:c1:e11",
+    "E3": "T1:c2:e21",
+    "E4": "T1:e1:o",
+    "E5": "T1:c4:e41",
+    "E6": "T1:c1:e12",
+    "E7": "T1:c2:e22",
+    "E8": "T1:c3:e2",
+    "I1": "T1:c1:o",
+    "I2": "T1:c2:o",
+    "I3": "T1:c3:o",
+    "I4": "T1:c3:c4"
+  },
+  "edge_to_slot": {
+    "T1:c4:e42": "E1",
+    "T1:c1:e11": "E2",
+    "T1:c2:e21": "E3",
+    "T1:e1:o": "E4",
+    "T1:c4:e41": "E5",
+    "T1:c1:e12": "E6",
+    "T1:c2:e22": "E7",
+    "T1:c3:e2": "E8",
+    "T1:c1:o": "I1",
+    "T1:c2:o": "I2",
+    "T1:c3:o": "I3",
+    "T1:c3:c4": "I4"
+  },
+  "field_to_lines": {
+    "24": [
+      "I1"
+    ],
+    "13": [
+      "I2"
+    ],
+    "52": [
+      "I3"
+    ],
+    "56": [
+      "I4"
+    ]
+  },
+  "field_to_edges": {
+    "24": [
+      "T1:c1:o"
+    ],
+    "13": [
+      "T1:c2:o"
+    ],
+    "52": [
+      "T1:c3:o"
+    ],
+    "56": [
+      "T1:c3:c4"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+# Isolated application runtime; never import site.
+python312.zip
+DLLs
+.
+..\..\

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="T1-1-1 attachment" data-model-diagram-id="T1-1-1" viewBox="-4.8418584287 -4.8820508076 9.6837168574 9.7641016152">
+<style>.wire{fill:none;stroke:#243448;stroke-width:.032;stroke-linecap:round}.arrow{fill:#243448}.label{font-family:Georgia,'Times New Roman',serif;font-size:.27px;fill:#162940;paint-order:stroke;stroke:white;stroke-width:.055}.edge .hit{stroke:transparent;stroke-width:.24;fill:none;pointer-events:stroke}.edge{cursor:pointer;outline:none}.edge:hover .wire,.edge:focus-visible .wire,.edge.active .wire{stroke:#1565c0;stroke-width:.06}.edge:hover .arrow,.edge:focus-visible .arrow,.edge.active .arrow{fill:#1565c0}.edge:hover .label,.edge:focus-visible .label,.edge.active .label{fill:#1565c0}</style>
+<g class="edge" id="line-E1" tabindex="0" data-line-slot="E1" data-edge-id="T1:c4:e42" data-field-id="" data-sm-symbol="Q_L"><title>E1: Q_L^* | F | SU(3) [0, 1] | SU(2) 2 | Y=-1/6</title>
+<line class="wire" x1="2.0" y1="-1.7320508076" x2="2.0" y2="-3.7320508076"/>
+<polygon class="arrow" points="2.0,-2.6220508076 1.95,-2.7920508076 2.05,-2.7920508076"/>
+<text class="label" id="label-E1" x="2.0" y="-4.0320508076" text-anchor="middle" dominant-baseline="central">Q<tspan baseline-shift="sub" font-size=".18">L</tspan><tspan baseline-shift="super" font-size=".18">*</tspan></text>
+<line class="hit" x1="2.0" y1="-1.7320508076" x2="2.0" y2="-3.7320508076"/></g>
+<g class="edge" id="line-E2" tabindex="0" data-line-slot="E2" data-edge-id="T1:c1:e11" data-field-id="" data-sm-symbol="Q_L"><title>E2: Q_L | F | SU(3) [1, 0] | SU(2) 2 | Y=1/6</title>
+<line class="wire" x1="-2.0" y1="-1.7320508076" x2="-2.0" y2="-3.7320508076"/>
+<polygon class="arrow" points="-2.0,-2.6220508076 -2.05,-2.7920508076 -1.95,-2.7920508076"/>
+<text class="label" id="label-E2" x="-2.0" y="-4.0320508076" text-anchor="middle" dominant-baseline="central">Q<tspan baseline-shift="sub" font-size=".18">L</tspan></text>
+<line class="hit" x1="-2.0" y1="-1.7320508076" x2="-2.0" y2="-3.7320508076"/></g>
+<g class="edge" id="line-E3" tabindex="0" data-line-slot="E3" data-edge-id="T1:c2:e21" data-field-id="" data-sm-symbol="u_R"><title>E3: u_R^* | F | SU(3) [0, 1] | SU(2) 1 | Y=-2/3</title>
+<line class="wire" x1="-2.0" y1="1.7320508076" x2="-3.7320508076" y2="2.7320508076"/>
+<polygon class="arrow" points="-2.770762609383284,2.177050807600741 -2.8929869280276366,2.305352077789012 -2.942986928026963,2.218749537410179"/>
+<text class="label" id="label-E3" x="-3.9918584287" y="2.8820508076" text-anchor="middle" dominant-baseline="central">u<tspan baseline-shift="sub" font-size=".18">R</tspan><tspan baseline-shift="super" font-size=".18">*</tspan></text>
+<line class="hit" x1="-2.0" y1="1.7320508076" x2="-3.7320508076" y2="2.7320508076"/></g>
+<g class="edge" id="line-E4" tabindex="0" data-line-slot="E4" data-edge-id="T1:e1:o" data-field-id="" data-sm-symbol="H"><title>E4: H^* | S | SU(3) [0, 0] | SU(2) 2 | Y=-1/2</title>
+<line class="wire" x1="-1.0" y1="-0.0" x2="-3.0" y2="-0.0" stroke-dasharray=".10 .075"/>
+<polygon class="arrow" points="-1.89,-0.0 -2.06,0.05 -2.06,-0.05"/>
+<text class="label" id="label-E4" x="-3.3" y="-0.0" text-anchor="middle" dominant-baseline="central">H<tspan baseline-shift="super" font-size=".18">*</tspan></text>
+<line class="hit" x1="-1.0" y1="-0.0" x2="-3.0" y2="-0.0"/></g>
+<g class="edge" id="line-E5" tabindex="0" data-line-slot="E5" data-edge-id="T1:c4:e41" data-field-id="" data-sm-symbol="d_R"><title>E5: d_R | F | SU(3) [1, 0] | SU(2) 1 | Y=-1/3</title>
+<line class="wire" x1="2.0" y1="-1.7320508076" x2="3.7320508076" y2="-2.7320508076"/>
+<polygon class="arrow" points="2.770762609383284,-2.177050807600741 2.8929869280276366,-2.305352077789012 2.942986928026963,-2.218749537410179"/>
+<text class="label" id="label-E5" x="3.9918584287" y="-2.8820508076" text-anchor="middle" dominant-baseline="central">d<tspan baseline-shift="sub" font-size=".18">R</tspan></text>
+<line class="hit" x1="2.0" y1="-1.7320508076" x2="3.7320508076" y2="-2.7320508076"/></g>
+<g class="edge" id="line-E6" tabindex="0" data-line-slot="E6" data-edge-id="T1:c1:e12" data-field-id="" data-sm-symbol="e_R"><title>E6: e_R^* | F | SU(3) [0, 0] | SU(2) 1 | Y=1</title>
+<line class="wire" x1="-2.0" y1="-1.7320508076" x2="-3.7320508076" y2="-2.7320508076"/>
+<polygon class="arrow" points="-2.770762609383284,-2.177050807600741 -2.942986928026963,-2.218749537410179 -2.8929869280276366,-2.305352077789012"/>
+<text class="label" id="label-E6" x="-3.9918584287" y="-2.8820508076" text-anchor="middle" dominant-baseline="central">e<tspan baseline-shift="sub" font-size=".18">R</tspan><tspan baseline-shift="super" font-size=".18">*</tspan></text>
+<line class="hit" x1="-2.0" y1="-1.7320508076" x2="-3.7320508076" y2="-2.7320508076"/></g>
+<g class="edge" id="line-E7" tabindex="0" data-line-slot="E7" data-edge-id="T1:c2:e22" data-field-id="" data-sm-symbol="e_R"><title>E7: e_R^* | F | SU(3) [0, 0] | SU(2) 1 | Y=1</title>
+<line class="wire" x1="-2.0" y1="1.7320508076" x2="-2.0" y2="3.7320508076"/>
+<polygon class="arrow" points="-2.0,2.6220508076 -1.95,2.7920508076 -2.05,2.7920508076"/>
+<text class="label" id="label-E7" x="-2.0" y="4.0320508076" text-anchor="middle" dominant-baseline="central">e<tspan baseline-shift="sub" font-size=".18">R</tspan><tspan baseline-shift="super" font-size=".18">*</tspan></text>
+<line class="hit" x1="-2.0" y1="1.7320508076" x2="-2.0" y2="3.7320508076"/></g>
+<g class="edge" id="line-E8" tabindex="0" data-line-slot="E8" data-edge-id="T1:c3:e2" data-field-id="" data-sm-symbol="H"><title>E8: H^* | S | SU(3) [0, 0] | SU(2) 2 | Y=-1/2</title>
+<line class="wire" x1="1.0" y1="-0.0" x2="2.0" y2="1.7320508076" stroke-dasharray=".10 .075"/>
+<polygon class="arrow" points="1.4450000000007412,0.7707626093832838 1.5733012701890121,0.8929869280276367 1.4866987298101793,0.9429869280269628"/>
+<text class="label" id="label-E8" x="2.15" y="1.9918584287" text-anchor="middle" dominant-baseline="central">H<tspan baseline-shift="super" font-size=".18">*</tspan></text>
+<line class="hit" x1="1.0" y1="-0.0" x2="2.0" y2="1.7320508076"/></g>
+<g class="edge" id="line-I1" tabindex="0" data-line-slot="I1" data-edge-id="T1:c1:o" data-field-id="24" data-sm-symbol=""><title>I1: 24^* | S | SU(3) [0, 1] | SU(2) 2 | Y=-7/6</title>
+<line class="wire" x1="-1.0" y1="-0.0" x2="-2.0" y2="-1.7320508076" stroke-dasharray=".10 .075"/>
+<polygon class="arrow" points="-1.5549999999992588,-0.9612881982167163 -1.4266987298109879,-0.8390638795723634 -1.5133012701898207,-0.7890638795730373"/>
+<text class="label" id="label-I1" x="-1.2921539030908011" y="-0.9860254037983829" text-anchor="middle" dominant-baseline="central">24<tspan baseline-shift="super" font-size=".18">*</tspan></text>
+<line class="hit" x1="-1.0" y1="-0.0" x2="-2.0" y2="-1.7320508076"/></g>
+<g class="edge" id="line-I2" tabindex="0" data-line-slot="I2" data-edge-id="T1:c2:o" data-field-id="13" data-sm-symbol=""><title>I2: 13 | S | SU(3) [1, 0] | SU(2) 1 | Y=-1/3</title>
+<line class="wire" x1="-1.0" y1="-0.0" x2="-2.0" y2="1.7320508076" stroke-dasharray=".10 .075"/>
+<polygon class="arrow" points="-1.5549999999992588,0.9612881982167163 -1.5133012701898207,0.7890638795730373 -1.4266987298109879,0.8390638795723634"/>
+<text class="label" id="label-I2" x="-1.2921539030908011" y="0.9860254037983829" text-anchor="middle" dominant-baseline="central">13</text>
+<line class="hit" x1="-1.0" y1="-0.0" x2="-2.0" y2="1.7320508076"/></g>
+<g class="edge" id="line-I3" tabindex="0" data-line-slot="I3" data-edge-id="T1:c3:o" data-field-id="52" data-sm-symbol=""><title>I3: 52^* | S | SU(3) [1, 1] | SU(2) 1 | Y=1</title>
+<line class="wire" x1="-1.0" y1="-0.0" x2="1.0" y2="-0.0" stroke-dasharray=".10 .075"/>
+<polygon class="arrow" points="0.11,-0.0 -0.06,0.05 -0.06,-0.05"/>
+<text class="label" id="label-I3" x="0.0" y="0.24" text-anchor="middle" dominant-baseline="central">52<tspan baseline-shift="super" font-size=".18">*</tspan></text>
+<line class="hit" x1="-1.0" y1="-0.0" x2="1.0" y2="-0.0"/></g>
+<g class="edge" id="line-I4" tabindex="0" data-line-slot="I4" data-edge-id="T1:c3:c4" data-field-id="56" data-sm-symbol=""><title>I4: 56 | S | SU(3) [1, 1] | SU(2) 2 | Y=-1/2</title>
+<line class="wire" x1="1.0" y1="-0.0" x2="2.0" y2="-1.7320508076" stroke-dasharray=".10 .075"/>
+<polygon class="arrow" points="1.4450000000007412,-0.7707626093832838 1.4866987298101793,-0.9429869280269628 1.5733012701890121,-0.8929869280276367"/>
+<text class="label" id="label-I4" x="1.7078460969091989" y="-0.7460254038016172" text-anchor="middle" dominant-baseline="central">56</text>
+<line class="hit" x1="1.0" y1="-0.0" x2="2.0" y2="-1.7320508076"/></g>
+<circle id="vertex-c1" cx="-2.0" cy="-1.7320508076" r="0.045" fill="#243448"/>
+<circle id="vertex-c2" cx="-2.0" cy="1.7320508076" r="0.045" fill="#243448"/>
+<circle id="vertex-c3" cx="1.0" cy="-0.0" r="0.045" fill="#243448"/>
+<circle id="vertex-c4" cx="2.0" cy="-1.7320508076" r="0.045" fill="#243448"/>
+<circle id="vertex-e1" cx="-3.0" cy="-0.0" r="0.025" fill="#243448"/>
+<circle id="vertex-e11" cx="-2.0" cy="-3.7320508076" r="0.025" fill="#243448"/>
+<circle id="vertex-e12" cx="-3.7320508076" cy="-2.7320508076" r="0.025" fill="#243448"/>
+<circle id="vertex-e2" cx="2.0" cy="1.7320508076" r="0.025" fill="#243448"/>
+<circle id="vertex-e21" cx="-3.7320508076" cy="2.7320508076" r="0.025" fill="#243448"/>
+<circle id="vertex-e22" cx="-2.0" cy="3.7320508076" r="0.025" fill="#243448"/>
+<circle id="vertex-e41" cx="3.7320508076" cy="-2.7320508076" r="0.025" fill="#243448"/>
+<circle id="vertex-e42" cx="2.0" cy="-3.7320508076" r="0.025" fill="#243448"/>
+<circle id="vertex-o" cx="-1.0" cy="-0.0" r="0.045" fill="#243448"/>
+</svg>
